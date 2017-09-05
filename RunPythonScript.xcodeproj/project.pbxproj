@@ -74,6 +74,7 @@
 				5B3D52151F5EC12900E9C479 /* Sources */,
 				5B3D52161F5EC12900E9C479 /* Frameworks */,
 				5B3D52171F5EC12900E9C479 /* Resources */,
+				5B3D522E1F5EC13F00E9C479 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -130,6 +131,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B3D522E1F5EC13F00E9C479 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/usr/bin/python generator.py";
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B3D52151F5EC12900E9C479 /* Sources */ = {
